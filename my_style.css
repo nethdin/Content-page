@@ -1,0 +1,118 @@
+body{
+    background-color: bisque;
+    
+}  
+    
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h3{
+    font-size: larger;
+    margin-left: 20px;
+}
+
+/* Anchor links */
+a {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Anchor link hover effect */
+a:hover {
+    color: #00ff11; /* Change text color on hover */
+}
+
+
+.topic{
+    text-align: center;
+}
+
+#intro, #EOI, #PFS, #SPS, #conclusion {
+    background: linear-gradient(270deg, rgb(173, 40, 10), rgb(251, 115, 52));
+    padding: 50px;
+    overflow: hidden; /* Clear floats */
+}
+
+#intro img {
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some space between the image and the paragraph */
+    max-width: 30%; /* Adjust the width of the image as needed */
+    opacity: 0.5; /* Set default opacity to 50% */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#EOI img{
+    float: left; /* Float the image to the right */
+    margin-right: 20px; /* Add some space between the image and the paragraph */
+    max-width: 30%; /* Adjust the width of the image as needed */
+    opacity: 0.5; /* Set default opacity to 50% */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+#PFS img{
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some space between the image and the paragraph */
+    max-width: 30%; /* Adjust the width of the image as needed */
+    opacity: 0.5; /* Set default opacity to 50% */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+#SPS img{
+    float: left; /* Float the image to the right */
+    margin-right: 20px; /* Add some space between the image and the paragraph */
+    max-width: 30%; /* Adjust the width of the image as needed */
+    opacity: 0.5; /* Set default opacity to 50% */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+#intro img:hover, #EOI img:hover, #PFS img:hover, #SPS img:hover {
+    opacity: 1; /* Change opacity to 100% on hover */
+}
+
+#intro p, #EOI P, #PFS P, #SPS P, #conclusion {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+#point1, #point2, #point3{
+    background: linear-gradient(270deg, rgb(10, 75, 173), rgb(52, 171, 251));
+    padding: 2px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+#icon-section{
+    background-color: rgb(85, 86, 87);
+}
+
+#icon-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.icon {
+    width: 50px;
+    transition: transform 0.5s ease;
+    opacity: 0.7;
+}
+.icon:hover {
+    opacity: 0.1;
+}
+
